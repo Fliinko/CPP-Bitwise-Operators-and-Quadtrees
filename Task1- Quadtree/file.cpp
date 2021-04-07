@@ -75,9 +75,10 @@ template <class Object>
 quadtree<Object>*file<Object>::load(string name){
      if(name.find_last_of('.') == string::npos){
         name += ".4";
-    }else if(name.substr(name.find_last_of(".") + 1).compare("4") != 0){
+     }
+     else if(name.substr(name.find_last_of(".") + 1).compare("4") != 0){
         cout << "Extension is incorrect" << endl;
-    }
+     }
 
     ifstream file1;
     file1.open(name, ios::in); //Creates a file if it doesn't already exist
