@@ -33,9 +33,7 @@ quadtree<Object>::quadtree(unsigned width, unsigned height, unsigned x, unsigned
     this->y = y;
     this->level = level;
 }
-
 //----- Getters and Setters -----
-
 //Width 
 template <class Object>
 unsigned quadtree<Object>::getWidth(){
