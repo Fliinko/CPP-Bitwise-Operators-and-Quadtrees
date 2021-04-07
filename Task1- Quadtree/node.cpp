@@ -9,7 +9,8 @@ using namespace std;
 
 //Paramater-less Constructor
 template <class Object>
-node<Object>::node() {}
+node<Object>::node() {
+}
 
 /* x = x coordinate of the node
 *  y = y coordinate of the node
