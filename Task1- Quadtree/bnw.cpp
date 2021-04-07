@@ -25,7 +25,8 @@ using namespace std;
 using namespace colour;
 
 //Parameterless Constructor
-bnw::bnw(){}
+bnw::bnw(){
+}
 
 //Overloaded Constructor
 bnw::bnw(string status){
