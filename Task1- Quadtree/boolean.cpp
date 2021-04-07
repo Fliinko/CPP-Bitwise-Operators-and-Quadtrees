@@ -24,7 +24,8 @@ using namespace std;
 using namespace colour;
 
 //parameterless constructor
-boolean::boolean(){}
+boolean::boolean(){
+}
 
 //overloaded constructor
 boolean::boolean(string status){
