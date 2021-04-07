@@ -62,6 +62,7 @@ void ShowTypes(){
 }
 
 string getPrompt(string line){
+    
     unsigned pos;
     if((pos = line.find(" ")) != string::npos){
         return line.substr(0,pos);
